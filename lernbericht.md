@@ -3,17 +3,15 @@ Elia Ritzmann
 
 ## Einleitung
 
-In diesem Modul habe ich gelernt, wie man mit dem Framework JSF
+In diesem Modul habe ich gelernt, wie man mit dem Framework JSF eine webapp mit Session Handling erstellt.
 
 ## Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
 
-## Beschreibung
 
 ### Beschreibung:
 
-Als Produkt habe ich eine kleine Webapp erstellt bei der man eine reise mit Abfahrts- und Ankunftsort und einem Verkehrsmittel wählen kann. 
+Als Produkt habe ich eine kleine Webapp erstellt bei der man eine Reise mit Abfahrts- und Ankunftsort und einem Verkehrsmittel wählen kann. 
 
 ### Demovideo:
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gkKCJtF32nc/0.jpg)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://youtu.be/gkKCJtF32nc))
@@ -22,7 +20,7 @@ Als Produkt habe ich eine kleine Webapp erstellt bei der man eine reise mit Abfa
 ```java
 public void setStartingPoint(String startingPoint) {
         resetDestinations();
-        //delete startinPoint from destination selection
+        //delete startinPoint from destination list
         destinations.remove(startingPoint);
         this.startingPoint = startingPoint;
     }
@@ -30,12 +28,15 @@ public void setStartingPoint(String startingPoint) {
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Ich habe bei diesem Projekt gelernt, wie ich in JSF eine komplexere Bean erstelle und diese mit dem Frontend verknüpfe. Ausserdem habe ich gelernt, wie ich Bilder in eine JSF Applikation einbinde.
 
 # Reflektion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+👍 Positiv:
+Ich habe mich langsam an das Framework gewöhnt und komme damit nun gut zurecht.
 
-👎 und etwas, was nicht gut lief.
+👎 Negativ:
+Beim Programmieren legt mir IntelliJ immer noch einige Steine in den Weg.
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+Verbesserungsvorschlag:
+Weiter üben, so dass ich in der Prüfung auf alles gefasst bin.
